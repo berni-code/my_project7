@@ -7,8 +7,7 @@ st.title('Análisis de Datos de Vehículos Usados')
 
 # Cargar datos
 # asegúrate de que el archivo esté en el mismo directorio
-car_data = pd.read_csv('vehicles_us.csv')
-
+car_data = pd.read_csv('C:\Users\corde\OneDrive\Documents\TrpleTen\Sprint_7_TripleTen\Proyecto7')
 # Botón para construir histograma
 if st.button('Construir histograma'):
     st.write(
